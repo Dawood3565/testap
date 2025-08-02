@@ -1,0 +1,70 @@
+body{
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    background-color: #FFFFF0;
+}
+.logo{
+    width: 16rem;
+    font-family: "Roboto", sans-serif;
+}
+.navbar-nav a{
+    font-size: 18px;
+    color: black;
+}
+.navbar-nav a:hover{
+    border-bottom: 2px solid #A2AF9B;
+}
+.quiz-sec{
+    padding: 40px 0;
+    background-color: #EEEEEE;
+}
+.fs12{
+    border-bottom: 2px solid #E4E4D0;
+    
+}
+span{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
+    
+}
+.heading-1{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 12px;
+    
+}
+
+.option {
+    background: #DCCFC0;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 10rem;
+}
+.option:hover {
+    background: #A2AF9B;
+}
+.option.correct {
+    background-color: #A2AF9B;
+    border-color: #27ae60;
+}
+.option.wrong {
+    background-color: #f7c5c5;
+    border-color: #e74c3c;
+}
+.next-btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #A2AF9B;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
